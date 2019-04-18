@@ -1,10 +1,14 @@
 {
-  "name": "react-webpack-admin-lte",
+  "name": "react-webpack-template",
   "version": "1.0.0",
-  "description": "It's a dashboard projects, rebuilding the admin-lte dashboard in a react version",
+  "description": "It's a ReactJS Webpack template",
   "scripts": {
     "webpack": "babel-node ./node_modules/webpack/bin/webpack",
     "start": "babel-node ./node_modules/webpack-dev-server/bin/webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelMelo/react-webpack-template.git"
   },
   "keywords": [
     "react",
@@ -12,8 +16,11 @@
     "babel",
     "admin-lte"
   ],
-  "author": "Carlos Miguel",
+  "author": "Carlos Miguel <miguel21.melo21@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiguelMelo/react-webpack-template/issues"
+  },
   "devDependencies": {
     "@babel/core": "7.4.3",
     "@babel/node": "7.2.2",
